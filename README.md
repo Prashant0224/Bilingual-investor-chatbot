@@ -37,10 +37,15 @@ NumPy, OS
 📂 Project Structure
 📦 bilingual-investor-chatbot
  ┣ 📜 main.py              # Main chatbot script
+ 
  ┣ 📜 requirements.txt     # Dependencies
+ 
  ┣ 📜 FinancialResults.pdf # Sample document (if allowed)
+ 
  ┣ 📜 SohailPortfolio.pdf  # Sample document (if allowed)
+ 
  ┣ 📜 README.md            # Project description
+ 
  ┗ 📦 vector_store.faiss   # Saved FAISS index
 
  ▶️ Usage
@@ -55,5 +60,7 @@ python main.py
 Ask questions in English or Japanese:
 
 You: What was the Q1 revenue in 2025?
+
 You: 2025年のQ1の収益は？
+
 
